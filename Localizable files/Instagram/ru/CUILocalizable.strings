@@ -1,0 +1,302 @@
+"IG ++ Settings" = "Настройки IG ++";
+
+/* Основное */
+"Feed Settings" = "Лента и основное";
+"Instagram Feed Settings" = "Управление настройками ленты и основными функциями";
+
+"MAIN FEED OPTIONS" = "Перевод твика ++ выполнен командой THEUX.RU\n\n\nОСНОВНЫЕ НАСТРОЙКИ ЛЕНТЫ";
+"Enable Custom Feed" = "Вкл. настраиваемую ленту";
+"Show Custom Feed Dropdown" = "Выбирать стиль ленты из списка";
+"Feed Type" = "Стиль ленты по умолч.";
+"Full Feed" = "Полноэкранный";
+"Minimal Feed" = "Миниатюры";
+"Number of Columns" = "Кол-во колонок";
+"Show Stories in Minimal Feed" = "Истории при стиле «Миниатюры»";
+
+"EXPLORE FEED OPTIONS" = "НАСТРОЙКИ ВКЛАДКИ «ОБЗОР»";
+
+"FEED MEDIA OPTIONS" = "НАСТРОЙКИ МЕДИА";
+"Auto-Play Feed Video Sound" = "Автовоспр. звук в видео";
+"Show Video Controls" = "Показ. элементы управления видео";
+"Disable Video Auto-Play" = "Откл. автовоспр. видео";
+"Long Hold Image To Zoom" = "Удерж. для увелич. на весь экран";
+"Show Caption While Zoomed" = "Описание фото в полноэкран. режиме";
+"Show HQ photos everywhere" = "Фото в высоком разрешении";
+
+"ADDITIONAL FEED OPTIONS" = "ДОПОЛНИТЕЛЬНЫЕ НАСТРОЙКИ";
+"Hide Sponsored Posts" = "Скрыть спонсорские посты";
+"Show Full Timestamp" = "Показывать точное время поста";
+"Feed Date Style" = "Стиль даты в ленте";
+"Feed Time Style" = "Стиль времени";
+"Confirm Double Tap to Like" = "Подтв. лайка двойным тапом";
+"Confirm Like Button Tap" = "Подтв. лайка по иконке «Like»";
+"Confirm Comment Like Button Tap" = "Подтв. лайк комментария";
+"Enable Text Copying" = "Разрешить копирование текста";
+"Hide Comments In Feed" = "Скрыть комментарии в ленте";
+"Hide Suggestions" = "Скрыть рекомендации (рекламу)";
+"Muted Users" = "Скрытые из ленты пользов.";
+"Add User" = "Добавить";
+
+
+/* Истории */
+"Stories Settings" = "Истории";
+"Instagram Stories Settings" = "Управление настройками Историй";
+
+"STORIES OPTIONS" = "ФУНКЦИИ ИСТОРИЙ";
+"Completely disable the stories feature" = "Скрыть Истории из ленты";
+"Manually Mark Stories As Seen" = "Отмечать «просмотрено» вручную";
+"Disable Stories Auto Advance" = "Откл. автопереход к след. Истории";
+"Disable Switching to Next Friend" = "Откл. автопереход к след. другу";
+
+"AUTOSAVE SETTINGS" = "АВТОСОХРАНЕНИЕ ИСТОРИЙ";
+"Autosave Stories" = "Автоматически сохранять Истории";
+"Autosave users stories" = "Настройка автосохранения Историй, управление пользователями и хранилищем";
+"Location" = "Место хранения";
+"Save to Phone Camera Roll" = "Фотопленка";
+"Save to Phone Album" = "Альбом в «Фотопленке»";
+"Save to Media Vault" = "Хранилище ++";
+"Media Quality" = "Качество";
+"High" = "Высокое";
+"Medium" = "Среднее";
+"Low" = "Низкое";
+"Enable Selective Autosave" = "Выборочное автосохранение";
+"Selected Users" = "Сохранять Истории от";
+"Autosave Notifications" = "Уведомлять о сохранении";
+"Show a status bar notification when a story is autosaved" = "Показывать уведомление при автоматическом сохранении Историй";
+"Stories Vault" = "Сохраненные Истории";
+"Access saved stories media\n\n\n" = "Доступ и управление Историями, сохраненными в ++ хранилище\n\n\n\n";
+
+
+/* Директ */
+"DM Stories Settings" = "Директ";
+"Instagram DM Settings" = "Управление общими настройками и Историями в личных сообщениях";
+
+"DM OPTIONS" = "ОСНОВНЫЕ ФУНКЦИИ ДИРЕКТА";
+"Disable DM Read Receipts" = "Откл. отчет о прочтении";
+"Show Video Download Button" = "Показывать кнопку сохран. видео";
+"Show Keyboard Automatically" = "Автомат. показывать клавиатуру";
+
+"DM STORIES OPTIONS" = "ФУНКЦИИ ИСТОРИЙ В ДИРЕКТЕ";
+"Disable Auto Mark As Seen" = "Откл. автопрочтение Истории";
+"Disable Screenshot Notification" = "Откл. уведомл. о скриншоте";
+"Disable Replayed Notification" = "Откл. уведомл. о повторном воспроизведении";
+"Disable Auto Advance" = "Откл. автопереход к след. истории";
+
+"Autosave DM Stories" = "Автосохр. историй из директа";
+
+
+/* Кастомные фильтры */
+"CUSTOM FILTER SETTINGS" = "ПОЛЬЗОВАТЕЛЬСКИЕ ФИЛЬТРЫ";
+"Enable Custom Filters" = "Вкл. дополнительные фильтры";
+"Manage Custom Filters" = "Управление фильтрами";
+"Manage Filters" = "Фильтры";
+"Hold to Delete" = "    Удерживайте для удаления";
+"Delete Filter?" = "Удалить фильтр?";
+"Add Custom Filter?" = "Добавить свой фильтр?";
+"To add custom filters please place \".png\" files in the CustomFilters folder. Filters should be 9:16 Aspect Ratio i.e 1080 × 1920" = "Чтобы добавить свой фильтр, поместите сюда картинку в формате «.png» и с соотношением сторон 9:16 (например, 1080 × 1920).";
+"Choose Image" = "Фотопленка";
+"Choose from Web" = "Выбрать из галереи";
+"Gallery" = "Галерея";
+"Close" = "Закрыть";
+"Load More" = "Загр. ещё";
+"Save" = "Сохранить";
+"Filter Saved!" = "Фильтр сохранён!";
+
+
+/* Сохранение */
+"Media Saving Settings" = "Сохранение медиа";
+"Settings for Saving IG Videos and Photos" = "Настройки сохранения видеороликов и фотографий";
+
+"MEDIA DOWNLOAD" = "ОСНОВНЫЕ НАСТРОЙКИ";
+"Auto Select Highest Quality" = "Выбирать наилучшее качество";
+"Default Location" = "Хранилище по умолч.";
+"Album Name" = "Название альбома";
+"Default Video Format" = "Формат ролика";
+"Always Ask" = "Всегда спрашивать";
+"Video" = "Видео";
+"Media Vault" = "Хранилище ++";
+
+
+/* Верификация */
+"Spoof Settings" = "Фейковые данные профиля";
+"Instagram Spoof Settings" = "Управление количеством постов, подписчиков и иконкой верификации. Данные изменения в профиле видите только вы";
+
+"SPOOF OPTIONS" = "ДАННЫЕ ДЛЯ ОТОБРАЖЕНИЯ В ПРОФИЛЕ";
+"Enable Follow Spoof" = "Изменить число подписок";
+"Followers Count" = "Кол-во подписчиков";
+"Following Count" = "Кол-во моих подписок";
+"Enable Media Spoof" = "Изменить число постов";
+"Media Count" = "Кол-во постов";
+"Verified Profile" = "Верифицированный профиль";
+
+
+/* Прочее */
+"Misc Settings" = "Прочее";
+"Miscellaneous Instagram Settings" = "Дополнительные настройки IG ++";
+
+"APPEARANCE OPTIONS" = "ВИД ПРОФИЛЯ ПОЛЬЗОВАТЕЛЕЙ";
+"Hide Bio Info In Profile View" = "Скрыть строку «О себе»";
+"Show Full Counts" = "Полный счетчик";
+"Show full number instead of shortened with K." = "«Полный счетчик» позволяет отображать точное число постов/подписчиков, не сокращая его до значений тыс./млн.";
+
+"ADDITIONAL OPTIONS" = "ДОПОЛНИТЕЛЬНО";
+"Unlimited Instagram Accounts" = "Неогранич. кол-во аккаунтов";
+"Save Caption on ReGram" = "Копировать описание при ReGram'е";
+
+"USAGE OPTIONS" = "ИСПОЛЬЗОВАНИЕ";
+"Unfollow Without Confirm" = "Отписка без подтверждения";
+"Open Links in Instagram" = "Откр. ссылки внутри приложения";
+"Stop Automatic Refresh" = "Запретить автообновление контента";
+"Stop Instagram from refreshing when the app is opened from the background. This will keep you at the same point in the feed that you were at." = "Запретить автоматическое обновление контента, когда приложение работает в фоновом режиме. Это позволит вам продолжить просмотр ленты с той же точки, на которой вы остановились.\n\n\n";
+
+
+/* Статус подписки */
+"Show Follow Status" = "Статус подписки";
+"Show if a user is following you." = "Показывать в профиле, подписан ли пользователь на вас";
+"FOLLOWS YOU" = "подписан|-а| на вас";
+"DOES NOT FOLLOW YOU" = "не подписан|-а| на вас";
+
+
+/* ПИН-код */
+"Set Passcode" = "Установить пароль";
+"Enter a new passcode" = "Придумайте новый пароль";
+"Please re-enter your passcode" = "Повторите пароль ещё раз";
+"Passcodes did not match. Try again" = "Пароли не совпадают, введите заново";
+"Incorrect passcode. Try again." = "Неверный пароль, повторите ввод";
+"Limit Exceeded" = "Лимит превышен";
+"You have exceeded the maximum number of passcode attempts" = "Вы превысили максимальное количество неверных попыток ввода пароля";
+"Delete Passcode" = "Удалить пароль";
+"Use Touch ID" = "Touch ID / Face ID";
+"Enter Passcode" = "Ввести пароль";
+"Enter your passcode" = "Введите пароль";
+
+
+/* Поддержка */
+"SUPPORT" = "ПОДДЕРЖКА";
+"Contact / More" = "Связь / Сброс / Другое";
+"Follow on Twitter: @unlimapps" = "Twitter разработчика: @unlimapps";
+"Report Bug or Feature Request" = "Сообщить об ошибке";
+"Contact Support (support@unlimapps.com)" = "Связаться с разработчиком (UnlimApps)";
+"NOTIFICATIONS" = "ОПОВЕЩЕНИЯ";
+"Show Tweak Updates" = "Оповещать об обновлениях";
+"Show tweak updates." = "Показывать оповещения об обновлениях твика. Оставьте включенным, если у вас JailBreak. Если приложение установлено через сервис theux.ru, об обновлениях будет сообщаться только на официальном канале.";
+"CRASH REPORTS" = "КОНФИДЕНЦИАЛЬНОСТЬ";
+"Send Crash Logs" = "Отправлять логи при ошибках";
+"Automatically send crash reports to @unlimapps" = "Автоматически отправлять логи в UnlimApps при ошибках и «падениях» приложения (рекомендуется отключить данную настройку).";
+
+"RESET SETTINGS AND KEYCHAIN" = "СБРОС";
+"Reset User Defaults" = "Сбросить предупреждения";
+"Reset App Keychain" = "Сбросить все настройки";
+"Reset App Keychain and Defaults" = "Полный сброс настроек и предупреждений";
+"Clear all the user defaults for the current app." = "Восстановить все окна предупреждений от UnlimApps и подсказки от Instagram.";
+"Clear the keychain for the current app." = "Сбросить все пользовательские настройки IG ++ и восстановить их до значений по умолчанию.";
+"Clear the keychain and defaults for the current app." = "Сбросить все настройки IG ++ до значений по умолчанию и восстановить все предупреждения.";
+"Reset Defaults" = "Сброс";
+"Reset Keychain" = "Сброс";
+"Reset Keychain & Defaults" = "Полный сброс";
+"Reset Keychain and Defaults" = "Сбросить всё";
+"Are you sure you want to reset the app defaults?" = "Вы уверены, что хотите сбросить и восстановить все окна предупреждений и подсказки?";
+"Are you sure you want to reset the app keychain?" = "Вы уверены, что хотите сбросить все настройки IG ++ и восстановить их до значений по умолчанию?";
+"Are you sure you want to reset the app keychain and defaults?" = "Вы уверены, что хотите сбросить все настройки IG ++ до значений по умолчанию и восстановить все предупреждения?";
+"Defaults Reset" = "Выполнено";
+"Keychain Reset" = "Выполнено";
+"Defaults and Keychain Reset" = "Выполнено";
+"Your App Defaults Have Been Reset" = "Окна, предупреждения и подсказки восстановлены";
+"Your App Keychain Has Been Reset" = "Все настройки IG ++ сброшены и восстановлены до значений по умолчанию";
+"Your App Defaults and Keychain Have Been Reset" = "Настройки IG ++ и предупреждения сброшены и восстановлены до значений по умолчанию";
+
+"MORE TWEAKS" = "ДРУГИЕ ТВИКИ ОТ UNLIMAPPS";
+
+
+/* Реклама */
+"Ad Removal Settings" = "Аккаунт ++ / Реклама";
+"AD REMOVAL" = "ВНИМАНИЕ!\n\nЕсли вы установили приложение с сайта THEUX.RU, то данный раздел для вас не актуален. Мы уже удалили всю рекламу из приложения для наших пользователей.\n\n\nУДАЛЕНИЕ РЕКЛАМЫ";
+"Login / Sign Up / Restore" = "Вход / Регистрация";
+"Your ads have been removed!" = "Реклама удалена!";
+"You have removed ads for ALL ++ Tweaks" = "Вы удалили рекламу из всех ++ приложений.";
+"Remove All ++ Ads for $7.0" = "Удалить всю ++ рекламу ($7)";
+"Purchase Ad Removal For the entire suite of ++ tweaks including YT++, WA++, FB++, IG++ and more.." = "Оплатите удаление баннерной рекламы во всех приложениях от UnlimApps, включая YT++, WA++, FB++, IG++ и другие.";
+"Remove IG++ for $2.0" = "Удалить рекламу из IG++ ($2)";
+"Purchase Ad Removal For IG++" = "Оплатите удаление баннерной рекламы только в IG++";
+"How Would you Like To Complete Your Payment?" = "Оплата удаления рекламы";
+"You can choose to use the native PayPal SDK or use safari. If you use safari you will have to re-start the current app after completing the purchase.\n\nPlease note If you installed the ++ tweak from a signing service like TuTu, BuildStore, TweakBox etc there could be other ads. These ads WILL NOT be removed by purchasing the ++ license since I am not the one adding them. Also, for YT ++ the sideloaded version will NOT block YouTube video ads." = "Вы можете оплатить через PayPal внутри приложения или через Safari. Если вы выберите Safari, вам будет необходимо перезапустить приложение после оплаты.\n\nОбратите внимание, что если вы установили приложение через THEUX.RU, то оплачивать не обязательно, реклама уже удалена.";
+"I Agree Use PayPal SDK" = "Оплатить в приложении";
+"I Agree Use Safari" = "Оплатить в Safari";
+"To remove ads using a CC or PayPal you must create a ++ username by clicking 'Sign Up above!\n\nPlease note If you installed the ++ tweak from a signing service like TuTu, BuildStore, TweakBox etc there could be other ads. These ads will not be removed by purchasing the ++ license since I am not the one adding them. Also, for YT ++ the sideloaded version will NOT block YouTube video ads.\n\n\n\n\n\n\n\n" = "Имейте ввиду, что если вы установили приложение через иные сервисы, распространяющие подписанные корп. сертификатом приложения (TuTu, BuildStore, TweakBox и т.д.), в них может быть иная реклама, которая останется в приложении после оплаты, так как она не связана с UnlimApps.\n\nЕсли вы установили приложение через THEUX.RU, то оплачивать не обязательно, реклама уже удалена.\n\n\n\n\n\n";
+
+"FREE AD REMOVAL" = "БЕСПЛАТНОЕ УДАЛЕНИЕ РЕКЛАМЫ";
+"Tweet To Remove Ads" = "Создать и отправить твит";
+"Tweet and Follow to Remove Ads for Free!" = "Сделайте пост на своей странице в Twitter, чтобы бесплатно удалить баннерную рекламу.";
+"Tweet and Follow?" = "Отправить твит?";
+"Tweet about and follow @unlimapps to remove ads for 5 days" = "Разместите твит @unlimapps, чтобы удалить рекламу на пять дней. Можно повторять много раз.\n\nНе актуально для приложения с theux.ru, реклама уже удалена.";
+"No" = "Не нужно";
+"Tweet" = "Твитнуть";
+"Yay!" = "Ура!";
+"Your Ads Have Been Removed for 5 days!" = "Твит размещен, реклама из приложения удалена на пять дней!";
+"Notice!" = "Внимание!";
+"Failed to Tweet and Remove Ads!" = "Не удалось отправить твит и удалить рекламу.";
+"Failed to Tweet and Remove Ads! error: Status is a duplicate." = "Не удалось отправить твит. Ошибка: твит уже размещен.";
+
+"Privacy Policy" = "Политика конфиденциальности (eng)";
+
+"Log In" = "Войти";
+"Forgot Password?" = "Забыли пароль?";
+"Password Reset" = "Отправлено на указанный email";
+"Sign Up" = "Зарегистрироваться";
+"Reset Password" = "Сброс пароля";
+"Please enter the email address for your account." = "Пожалуйста, введите email, который привязан к вашему ++ аккаунту";
+"Change Password" = "Сменить пароль";
+"Please enter the new password for your account." = "Новый пароль для вашего аккаунта";
+"Password Updated!" = "Обновлено";
+"Missing Information" = "Заполните поля";
+"Make sure you fill out all of the information!" = "Убедитесь, что заполнили все поля формы!";
+"Login Failed" = "Ошибка входа";
+"Please try again" = "Попробуйте ещё раз";
+"Sign Up Error" = "Логин / email занят";
+
+/* Окна */
+"Hey There!" = "Привет!";
+"To get the latest updates about ++ Tweaks follow @unlimapps on Twitter and Instagram!" = "Удаление рекламы и перевод твика осуществлены командой THEUX.RU\n\nВы можете подписаться на Twitter и Instagram разработчика, чтобы знать обо всех обновлениях твика.";
+"Follow" = "Подписаться";
+"Crashed!" = "Все сломалось :(";
+"It looks like there was a crash! Please contact unlimapps support." = "Похоже, что-то сломалось, приложение не может продолжить работу. Используйте предложенные ниже методы.";
+"Contact Support" = "Написать в UnlimApps";
+"Reset Defaults and Keychain" = "Сбросить настройки ++";
+"Re-Launch With Tweak" = "Перезапустить с твиком";
+"Use Without Tweak" = "Использовать без твика";
+
+/* прочее */
+"Delete all media?" = "Удалить всё?";
+"Cancel" = "Отмена";
+"Delete" = "Удалить";
+"Delete Item?" = "Удалить файл?";
+"Mute User" = "Скрыть посты польз. из ленты";
+"Unmute User" = "Показывать посты польз. в ленте";
+"++ Options" = "Скачать / поделиться (++)";
+"Select Image Size" = "Выберите размер фото";
+"Select Video Size" = "Выберите размер видеоролика";
+"Select Format" = "Выберите формат видеоролика";
+"Select where to save" = "Выберите, где сохранить";
+"Camera Roll" = "Фотопленка";
+"Album" = "Альбом в фотопленке";
+"Share" = "Поделиться";
+"Enter album name" = "Назовите альбом";
+"Confirm" = "Подтвердить";
+"Download / Share With ++" = "Скачать / поделиться (++)";
+"Mark As Seen" = "Отметить просмотренным";
+"Share with Instagram" = "Отправить в Директ";
+"Download" = "Скачать";
+"ReGram" = "ReGram (перепост)";
+"Share with ++" = "Поделиться (++)";
+"Share with Instagram" = "Отправить в Директ";
+"Ok" = "Ок";
+"Loading..." = "Загрузка...";
+"of" = " из ";
+"Re-Launch" = "Перезапустить";
+"Download All Carousel Items" = "Скачать все файлы из поста";
+"Which Vault?" = "Выберите хранилище";
+"Media" = "Сохранные медиа";
+"Stories" = "Сохранные истории";
+"Like/Unlike?" = "Добавить/удалить лайк?";
+"Like Image?" = "Добавить лайк?";
+"Like" = "Лайк";
