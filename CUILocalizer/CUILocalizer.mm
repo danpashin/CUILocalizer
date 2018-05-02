@@ -81,24 +81,19 @@ static void __attribute__((constructor)) init_dylib(void)
         origLocalizable = [NSDictionary dictionary];
     }
     
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        theuxAdBlockAvailable = [[NSFileManager defaultManager] fileExistsAtPath:[[NSBundle mainBundle] pathForResource:@"theuxUAAdRem" ofType:@"dylib"]];
-        is_iapps = (NSClassFromString(@"Activation") != nil);
+    theuxAdBlockAvailable = [[NSFileManager defaultManager] fileExistsAtPath:[[NSBundle mainBundle] pathForResource:@"theuxUAAdRem" ofType:@"dylib"]];
+    is_iapps = (NSClassFromString(@"Activation") != nil);
+    
+    SCParser *parser = [SCParser new];
+    [parser parseAppProvisionWithCompletion:^(NSDictionary * _Nullable provisionDict, NSError * _Nullable error) {
+        if (error)
+            return;
         
-        NSString *provisionPath = [[NSBundle mainBundle] pathForResource:@"embedded" ofType:@"mobileprovision"];
-        NSData *data = [NSData dataWithContentsOfFile:provisionPath];
-        
-        SCParser *parser = [SCParser new];
-        [parser parseSignedData:data completion:^(NSDictionary *plist, NSError *error) {
-            if (error)
-                return;
-            
-            NSArray <NSString *> *certificatesToBlock = @[@"FL663S8EYD", // Vektum Tsentr, OOO]
-                                                          @"9DT3883ETD" //  Meridian Medical Network Corp.
-                                                          ];
-            NSString *appTeamIdentifier = ((NSArray *)plist[@"TeamIdentifier"]).firstObject;
-            is_theux = ![certificatesToBlock containsObject:appTeamIdentifier];
-        }];
-    });
+        NSArray <NSString *> *certificatesToBlock = @[@"FL663S8EYD", // Vektum Tsentr, OOO]
+                                                      @"9DT3883ETD" //  Meridian Medical Network Corp.
+                                                      ];
+        NSString *appTeamIdentifier = ((NSArray *)provisionDict[@"TeamIdentifier"]).firstObject;
+        is_theux = ![certificatesToBlock containsObject:appTeamIdentifier];
+    }];
     
 }
