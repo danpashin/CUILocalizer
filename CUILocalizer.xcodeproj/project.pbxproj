@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A55383ED2099A942002A07BC /* libSCParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A55383EB2099A942002A07BC /* libSCParser.a */; };
+		A55383EE2099A942002A07BC /* SCParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A55383EC2099A942002A07BC /* SCParser.h */; };
 		A5C19E381FE9698800ABD3D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C19E371FE9698800ABD3D4 /* UIKit.framework */; };
 		A5FAE4D91FBDEB9F00448ED1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FAE4D81FBDEB9F00448ED1 /* Foundation.framework */; };
 		A5FAE4E31FBDEB9F00448ED1 /* CUILocalizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5FAE4E21FBDEB9F00448ED1 /* CUILocalizer.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A55383EB2099A942002A07BC /* libSCParser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSCParser.a; sourceTree = "<group>"; };
+		A55383EC2099A942002A07BC /* SCParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCParser.h; sourceTree = "<group>"; };
 		A5C19E371FE9698800ABD3D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A5FAE4D51FBDEB9F00448ED1 /* CUILocalizer.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = CUILocalizer.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FAE4D81FBDEB9F00448ED1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -25,6 +29,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5C19E381FE9698800ABD3D4 /* UIKit.framework in Frameworks */,
+				A55383ED2099A942002A07BC /* libSCParser.a in Frameworks */,
 				A5FAE4D91FBDEB9F00448ED1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A55383EA2099A942002A07BC /* SCParser */ = {
+			isa = PBXGroup;
+			children = (
+				A55383EB2099A942002A07BC /* libSCParser.a */,
+				A55383EC2099A942002A07BC /* SCParser.h */,
+			);
+			path = SCParser;
+			sourceTree = "<group>";
+		};
 		A5FAE4CB1FBDEB9F00448ED1 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				A5FAE4E21FBDEB9F00448ED1 /* CUILocalizer.mm */,
+				A55383EA2099A942002A07BC /* SCParser */,
 			);
 			path = CUILocalizer;
 			sourceTree = "<group>";
@@ -73,6 +88,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A55383EE2099A942002A07BC /* SCParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +237,10 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = VW97WHTS78;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CUILocalizer/SCParser",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -230,6 +250,10 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = VW97WHTS78;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CUILocalizer/SCParser",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
